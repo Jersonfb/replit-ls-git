@@ -1,3 +1,7 @@
-print(4+2)
+import streamlit as st
 
-#esto es un comentario
+st.title("Github + streamlit")
+
+query = st.text_input("¿Cual es tu consulta?")
+
+st.markdown(f"Tu consulta es: {query}")
